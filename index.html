@@ -603,8 +603,14 @@
         <p>© <span id="year"></span> Pravin Mishra. All rights reserved.</p>
         <p>Crafted with <span>cloud</span> excellence by Pravin Mishra</p>
       </div>
-        <p>Pravin Mishra Portfolio v1.0 — Deployed on 06-Feb-2026 — By Sandra Olisama </p>
+        <p>Pravin Mishra Portfolio v1.0 — Deployed on <span id="deployDate"></span> 06-Feb-2026 — By Sandra Olisama </p>
     </div>
+
+    <script>
+      const deployDate = document.getElementById("deployDate");
+      deployDate.textContent = new Date().toDateString();
+    </script>
+
   </footer>
 
 
